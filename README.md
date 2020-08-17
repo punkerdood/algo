@@ -19,11 +19,14 @@ This is Studio 1.
  3. Suppose you have an array of Customer objects, sorted in alphabetical order by last name. 
    For each of the following tasks, determine the run time in terms of big-O.
    a. n
-   b. n
-   c. 1
+   b. log(n)
+   c. log(n)
    d. n
  
  4. Now suppose that you have a dictionary (or hash map) of customer objects, 
  where the keys are letters and the values are arrays storing all customers with 
  last name beginning with that letter.
-   a. 
+   a. n
+   b. n
+   c. n
+   d. n^2
